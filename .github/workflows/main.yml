@@ -12,10 +12,10 @@ jobs:
       - name: Check out code
         uses: actions/checkout@v2
 
-      - name: Set up Python 3.9
-        uses: actions/setup-python@v2
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v3
         with:
-          python-version: 3.9.7
+          python-version: 3.11.1
 
       - name: Set timezone
         run: |
